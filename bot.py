@@ -78,7 +78,7 @@ def sendReplyToLiveChat(liveChatId, message):
 
 
 def main():
-    LIVE_STREAM_ID = input("Enter the live stream ID: ")
+    LIVE_STREAM_ID = input("-XHOPzv2930")
     # LIVE_STREAM_ID = "zxJ01IK_9z0"
     liveChatId = getLiveChatId(LIVE_STREAM_ID)
     messagesList = []  # List of messages
