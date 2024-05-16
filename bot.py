@@ -126,7 +126,7 @@ def main():
                     "Hey " + userName + "! Welcome to the stream!")
 
             if (message == "!discord" or message == "!disc"):
-                discord_link = "https://discord.gg/"
+                discord_link = "https://discord.gg/Fs9WuVCrQF"
                 sendReplyToLiveChat(
                     liveChatId,
                     f'Join our discord! {discord_link}')
