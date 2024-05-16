@@ -126,22 +126,14 @@ def main():
                     "Hey " + userName + "! Welcome to the stream!")
 
             if (message == "!discord" or message == "!disc"):
-                discord_link = "https://discord.gg/"
+                discord_link = "https://discord.gg/UA62ZMYwB4"
                 sendReplyToLiveChat(
                     liveChatId,
                     f'Join our discord! {discord_link}')
 
-            if (message == "!random" or message == "!rand"):
+            if (message == "!Test" or message == "!test"):
                 dad_jokes = [
-                    "Why do fathers take an extra pair of socks when they go golfing? In case they get a hole in one!",
-                    "Dear Math, grow up and solve your own problems.",
-                    "What has more letters than the alphabet? The post office!",
-                    "Why are elevator jokes so classic and good? They work on so many levels!",
-                    "What do you call a fake noodle? An impasta!",
-                    "What do you call a belt made out of watches? A waist of time!",
-                    "Why did the scarecrow win an award? Because he was outstanding in his field!",
-                    "Why don't skeletons ever go trick or treating? Because they have no body to go with!",
-                    "What's brown and sticky? A stick!"]
+                    "working!"]
                 joke = random.choice(dad_jokes)
                 sendReplyToLiveChat(liveChatId, joke)
 
